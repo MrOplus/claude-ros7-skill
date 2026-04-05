@@ -1,0 +1,21 @@
+{
+  "name": "claude-ros7-skill",
+  "owner": {
+    "name": "MrOplus"
+  },
+  "metadata": {
+    "description": "MikroTik RouterOS 7 CLI expert skill for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ros7skill",
+      "description": "MikroTik RouterOS 7 CLI expert. Provides complete command reference, configuration examples, and troubleshooting for RouterOS 7.x.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ros7skill"
+      ]
+    }
+  ]
+}
