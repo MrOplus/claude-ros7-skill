@@ -1,6 +1,15 @@
 ---
 name: ros7skill
-description: "MikroTik RouterOS 7 CLI expert. Use this skill whenever the user mentions MikroTik, RouterOS, RouterBOARD, ROS7, /ip, /interface, /system, /routing, /queue, /tool, firewall rules, WireGuard on MikroTik, bridge VLAN filtering, CAPsMAN, or any RouterOS CLI command path. Also trigger when the user asks about configuring routers with commands like 'add', 'set', 'print', 'export' in a networking context, or mentions winbox, mikrotik scripting, or routerboard configuration. Even if the user just says 'configure my router' or 'set up a firewall', this skill should activate if there is any MikroTik context in the conversation."
+description: >-
+  MikroTik RouterOS 7 CLI expert. Use this skill whenever the user mentions
+  MikroTik, RouterOS, RouterBOARD, ROS7, /ip, /interface, /system, /routing,
+  /queue, /tool, firewall rules, WireGuard on MikroTik, bridge VLAN filtering,
+  CAPsMAN, or any RouterOS CLI command path. Also trigger when the user asks
+  about configuring routers with commands like add, set, print, export in a
+  networking context, or mentions winbox, mikrotik scripting, or routerboard
+  configuration. Even if the user just says configure my router or set up a
+  firewall, this skill should activate if there is any MikroTik context in the
+  conversation.
 ---
 
 # MikroTik RouterOS 7 CLI Reference
