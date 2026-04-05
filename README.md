@@ -1,4 +1,4 @@
-# ros7skill
+# claude-ros7-skill
 
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that provides expert-level MikroTik RouterOS 7 CLI knowledge. When activated, Claude becomes a RouterOS 7 specialist capable of generating accurate configurations, troubleshooting issues, and explaining command syntax.
 
@@ -30,18 +30,18 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that prov
 ### From GitHub
 
 ```bash
-claude /plugin marketplace add <your-github-username>/ros7skill
+claude /plugin marketplace add MrOplus/claude-ros7-skill
 claude /plugin install
 claude /reload-plugins
 ```
 
 ### Manual
 
-Clone this repo into your Claude Code plugins directory:
+Clone this repo and install locally:
 
 ```bash
-git clone https://github.com/<your-github-username>/ros7skill.git
-cd ros7skill
+git clone https://github.com/MrOplus/claude-ros7-skill.git
+cd claude-ros7-skill
 claude /plugin install .
 claude /reload-plugins
 ```
@@ -67,7 +67,7 @@ Once installed, the skill activates automatically when you mention anything rela
 ## Skill Structure
 
 ```
-ros7skill/
+claude-ros7-skill/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
 ├── skills/
